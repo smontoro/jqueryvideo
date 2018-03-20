@@ -1,21 +1,14 @@
-/*$(document).ready(
-	function() {
-	//do stuff
-	}
-);*/
+//element/type selector
+document.getElementsByTagName("button")
+$("button")
 
-//when i click the button, 
-/*$("button").click(
+//class selector
+document.getElementsByClassName("box") //vanilla JS
+$(".box")
 
+//id selector
+var cta = document.getElementById("cta") //vanilla JS
+var cta = $("#cta")
 
-//i wont the background color of body to change
-	function() {
-		//document.body.style = "background-color: tomato";
-			$("body").css("background-color", "tomato");
-	}
-)*/
-
-//when i click the button i want the bakground color of the button to change. 
-$("button").click(function(){
-	$("body").css("background-color", "tomato");
-})
+//this selector
+$(this)
