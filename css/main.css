@@ -1,3 +1,16 @@
-img {
-	max-width: 500px;
+h1 {
+	color: tomato;
+	text-transform: uppercase;
+}
+
+.new-style {
+	color: white;
+	background-color: purple;
+	text-transform: lowercase;
+	font-size: 32px;
+}
+
+.dark {
+	background-color: darkgrey;
+	color: white;
 }
